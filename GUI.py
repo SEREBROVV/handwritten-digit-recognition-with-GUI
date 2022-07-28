@@ -85,7 +85,6 @@ class App(tk.Tk):
             final_pred = np.argmax(pred)
             plt.imshow(roi)
             plt.show()
-            break
         return final_pred, pred[final_pred]
 
 
